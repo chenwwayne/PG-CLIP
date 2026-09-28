@@ -5,7 +5,7 @@ Adaptation for Cross-Process Few-Shot Defect Inspection in Semiconductor-
 Display Manufacturing**.
 
 [Paper](paper/PG-CLIP.pdf) · [Citation](CITATIONS.bib) ·
-[Third-party notices](THIRD_PARTY_LICENSES.md)
+[Third-party notices](NOTICE)
 
 PG-CLIP combines a source-trained text adapter, Adaptive Periodic Semantic
 Fusion (APSF), and KAN-Residual visual adapters. The release also includes the
@@ -135,8 +135,7 @@ PG-CLIP is released under Apache-2.0. It derives from
 [AA-CLIP](https://github.com/Mwxinnn/AA-CLIP), contains code adapted from
 [OpenAI CLIP](https://github.com/openai/CLIP) and
 [OpenCLIP](https://github.com/mlfoundations/open_clip), and uses
-[pykan](https://github.com/KindXiaoming/pykan). See [NOTICE](NOTICE),
-[THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md), and
+[pykan](https://github.com/KindXiaoming/pykan). See [NOTICE](NOTICE) and
 [CITATIONS.bib](CITATIONS.bib) for licenses and citations.
 
 Copyright 2026 Chen Wei-Wei, Liao Yinping, and Leong Wai Yie.
