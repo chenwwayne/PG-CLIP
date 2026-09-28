@@ -1,0 +1,2 @@
+{"image_path":"images/normal/target_normal_0001.png","mask_path":"","class_name":"panel","label":0}
+{"image_path":"images/anomaly/target_anomaly_0001.png","mask_path":"mask/anomaly/target_anomaly_0001.png","class_name":"panel","label":1}

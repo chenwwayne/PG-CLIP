@@ -1,0 +1,31 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: pip
+      - name: Install PyTorch 2.3.1 CPU
+        run: >-
+          python -m pip install
+          torch==2.3.1 torchvision==0.18.1
+          --index-url https://download.pytorch.org/whl/cpu
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: CLI smoke tests
+        run: |
+          python train.py --help >/dev/null
+          python test.py --help >/dev/null
+          python scripts/build_amoled_directional_splits.py --data-root data/AMOLED-ARRAY --output-root /tmp/splits --dry-run
+          python scripts/run_pgclip_protocol.py --data-root data --direction active_to_cell --shot 2 --dry-run >/dev/null
+          python scripts/run_full_benchmark.py --data-root data --benchmark amoled --dry-run >/dev/null

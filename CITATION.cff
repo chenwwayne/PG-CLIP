@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use PG-CLIP, please cite the manuscript and its upstream methods."
+title: "PG-CLIP: Periodicity-Guided Semantic--Visual Adaptation for Cross-Process Few-Shot Defect Inspection in Semiconductor-Display Manufacturing"
+type: software
+version: 0.1.0
+date-released: 2026-09-15
+url: "https://github.com/chenwwayne/PG-CLIP"
+repository-code: "https://github.com/chenwwayne/PG-CLIP"
+license: Apache-2.0
+authors:
+  - family-names: Chen
+    given-names: Wei-Wei
+    email: chenwwayne@gmail.com
+  - family-names: Liao
+    given-names: Yinping
+    email: liaoyinping@szcp.edu.cn
+  - family-names: Leong
+    given-names: Wai Yie
+    email: waiyie@gmail.com
+preferred-citation:
+  type: article
+  title: "PG-CLIP: Periodicity-Guided Semantic--Visual Adaptation for Cross-Process Few-Shot Defect Inspection in Semiconductor-Display Manufacturing"
+  year: 2026
+  authors:
+    - family-names: Chen
+      given-names: Wei-Wei
+    - family-names: Liao
+      given-names: Yinping
+    - family-names: Leong
+      given-names: Wai Yie

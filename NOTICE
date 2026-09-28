@@ -1,0 +1,19 @@
+PG-CLIP
+Copyright 2026 Chen Wei-Wei, Liao Yinping, and Leong Wai Yie
+
+Licensed under the Apache License, Version 2.0.
+
+This software contains source derived from AA-CLIP, which is distributed
+under the Apache License, Version 2.0:
+https://github.com/Mwxinnn/AA-CLIP
+
+This software contains source adapted from OpenAI CLIP and OpenCLIP, which
+are distributed under the MIT License:
+https://github.com/openai/CLIP
+https://github.com/mlfoundations/open_clip
+
+The KAN-Residual implementation depends on pykan, distributed under the MIT
+License:
+https://github.com/KindXiaoming/pykan
+
+Complete third-party notices appear in THIRD_PARTY_LICENSES.md.
