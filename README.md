@@ -4,8 +4,7 @@ Official implementation of **PG-CLIP: Periodicity-Guided Semantic--Visual
 Adaptation for Cross-Process Few-Shot Defect Inspection in Semiconductor-
 Display Manufacturing**.
 
-[Paper](paper/PG-CLIP.pdf) · [Citation](CITATIONS.bib) ·
-[Third-party notices](NOTICE)
+[Citation](CITATIONS.bib) · [Third-party notices](NOTICE)
 
 PG-CLIP combines a source-trained text adapter, Adaptive Periodic Semantic
 Fusion (APSF), and KAN-Residual visual adapters. The release also includes the
